@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="./Fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Search</title>
+</head>
+<body>
+  
+  <nav>
+    <div class="navbar">
+      <a href="#home" class="nav-item"><img src="/Images/android-chrome-192x192.png" class="w-100" alt="" id="logo"></a>
+      <a href="#" class="nav-item" id="barrs"><i class="fas fa-bars" id="toog"></i></a>
+      <div class="d-flex hh">
+        <a href="#global" class="nav-item"><i class="fas fa-globe"></i></a>
+        <a href="#share" class="nav-item"><i class="fas fa-share-alt"></i></a>
+      </div>
+    </div>
+    <div class="icon d-none position-relative">
+      <nav class="navbarContent">
+        <i class="fas fa-times"></i>
+        <ul class="mt-5">
+          <li><a href="Search.html" id="Search">Search</a></li>
+          <li><a href="Categories.html" id="Categories">Categories</a></li>
+          <li><a href="Area.html" id="Area">Area</a></li>
+          <li><a href="Ingredient.html" id="Ingredients">Ingredients</a></li>
+          <li><a href="contactus.html" id="ContactUs">Contact Us</a></li>
+        </ul>
+        <div id="contactIcons">
+          <ul>
+            <li><i class="fa-brands fa-facebook text-white"></i></li>
+            <li><i class="fa-brands fa-twitter text-white"></i></li>
+            <li><i class="fa-brands fa-globe text-white"></i></li>
+          </ul>
+        </div>
+        <p class="fs-6 text-white copyright">Copyright © 2019 <br> All Rights Reserved.</p>
+      </nav>
+    </div>
+  </nav>
+
+  <section class="container m-auto position-relative">
+    <div class="row" id="row">
+      <!-- Content dynamically inserted here -->
+    </div>
+  </section>
+
+  <!-- Section for ingredient page -->
+  <section class="container m-auto position-relative" id="ingredientPage" style="display: none;">
+    <div class="row">
+      <!-- Ingredient details will be dynamically inserted here -->
+    </div>
+  </section>
+
+  <script src="./Js/bootstrap.bundle.min.js"></script>
+  <script src="./JS/jquery-3.7.1.min.js"></script>
+  <script src="./JS/index.js"></script>
+</body>
+</html>

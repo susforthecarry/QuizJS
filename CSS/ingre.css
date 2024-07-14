@@ -1,0 +1,18 @@
+.area-item, .category-item, .ingredient-item {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .area-item img, .category-item img, .ingredient-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .area-item .text, .category-item .text, .ingredient-item .text {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
